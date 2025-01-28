@@ -1,0 +1,125 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.productsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.productCard {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+.infoItem {
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.countUp {
+    border: 1px solid #333;
+    border-radius: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.countDown {
+    border: 1px solid #333;
+    border-radius: 16px;
+    width: 70px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.totalButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #029d2b;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.totalButton:hover {
+    background: #0056b3;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.closeButton {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

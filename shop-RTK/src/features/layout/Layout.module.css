@@ -1,0 +1,67 @@
+/* Layout.module.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 5vh;
+    width: 100%;
+
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.link {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: white;
+}
+
+.activeLink {
+    color: white;
+    font-weight: bold;
+}
+
+.mainContent {
+    flex-grow: 1;
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}

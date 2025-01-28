@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": "101",
+      "title": "sneakers",
+      "price": 100,
+      "quantity": 42
+    },
+    {
+      "id": "102",
+      "title": "t-shirt",
+      "price": 150,
+      "quantity": 30
+    },
+    {
+      "id": "103",
+      "title": "jeans",
+      "price": 600,
+      "quantity": 25
+    },
+    {
+      "id": "104",
+      "title": "hoodie",
+      "price": 700,
+      "quantity": 15
+    },
+    {
+      "id": "105",
+      "title": "jacket",
+      "price": 1200,
+      "quantity": 20
+    },
+    {
+      "id": "106",
+      "title": "cap",
+      "price": 100,
+      "quantity": 50
+    },
+    {
+      "id": "107",
+      "title": "socks",
+      "price": 50,
+      "quantity": 100
+    },
+    {
+      "id": "108",
+      "title": "backpack",
+      "price": 800,
+      "quantity": 10
+    },
+    {
+      "id": "109",
+      "title": "belt",
+      "price": 200,
+      "quantity": 35
+    },
+    {
+      "id": "110",
+      "title": "watch",
+      "price": 2500,
+      "quantity": 8
+    },
+    {
+      "id": "5cd1",
+      "title": "Book",
+      "price": 120,
+      "quantity": 32
+    },
+    {
+      "id": "eaf9",
+      "title": "dda",
+      "price": 123,
+      "quantity": 421412
+    },
+    {
+      "id": "b8d7",
+      "title": "note",
+      "price": 12000,
+      "quantity": 2
+    },
+    {
+      "id": "561f",
+      "category": "hoodie",
+      "title": "Nike",
+      "price": 44,
+      "quantity": 32
+    }
+  ],
+  "basket": [
+    {
+      "id": "101",
+      "title": "sneakers",
+      "price": 100,
+      "quantity": 42,
+      "count": 42,
+      "requestId": "uLVkDbCqZBo_8aZg7pTfe",
+      "signal": {}
+    },
+    {
+      "id": "103",
+      "title": "jeans",
+      "price": 600,
+      "quantity": 25,
+      "count": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Jacket",
+      "id": "3945"
+    },
+    {
+      "name": "hoodie",
+      "id": "2777"
+    },
+    {
+      "id": "0758",
+      "name": "Shoes"
+    },
+    {
+      "id": "e9c6",
+      "name": "t-shirt"
+    }
+  ]
+}
