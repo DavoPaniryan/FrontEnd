@@ -4,7 +4,7 @@
       "id": "101",
       "title": "sneakers",
       "price": 100,
-      "quantity": 42
+      "quantity": 20
     },
     {
       "id": "102",
@@ -16,7 +16,7 @@
       "id": "103",
       "title": "jeans",
       "price": 600,
-      "quantity": 25
+      "quantity": 20
     },
     {
       "id": "104",
@@ -92,7 +92,7 @@
       "title": "sneakers",
       "price": 100,
       "quantity": 42,
-      "count": 42,
+      "count": 43,
       "requestId": "uLVkDbCqZBo_8aZg7pTfe",
       "signal": {}
     },
@@ -120,6 +120,10 @@
     {
       "id": "e9c6",
       "name": "t-shirt"
+    },
+    {
+      "id": "3b69",
+      "name": "lexus"
     }
   ]
 }
